@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    /* border: 1px solid red; */
+
+
+}
+body {
+    background-image: url('../../img/bg.png');
+}
+.main-container {
+    background-color: #fff;
+    width: 55%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+
+}
+header div {
+    border: 1px solid white(255, 255, 255);
+    padding: 2rem;
+    text-transform: uppercase;
+    
+}
+header div:hover {
+    
+    background-color: #662F32;
+    color: white;
+    cursor: pointer;
+}
+
+
+h1 {
+    padding: 4rem;
+    text-align: center;
+ 
+}
+  
+      
+
+ span {
+    color:#692E32 ;
+ }
+ h1,span {
+    font-size:2.2rem;
+  
+ }
+
+.salon { width: 100%;
+
+}
+.sect-art {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+} 
+h2 {
+    padding: 1rem;
+    background-color: #662F32;
+}
+
+.art-article{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    background-color:#564D48;
+    /* border: 1px solid red;      */
+}
+
+
+.salon2,.canape-2,.chambre1 {
+    width:100%;
+}
+
+section {
+    color: rgb(255, 255, 255);
+}
+
+.plus-img { 
+    /* border: solid red; */
+}
+.div-btn{
+    display: flex;
+    align-self: flex-end;
+    justify-self: flex-end;
+    
+}
+h3 {
+    
+    font-weight: 100;
+    color: black;
+}
+
+.sect-art {
+    display: flex;
+    justify-content: space-around;  
+}
+.sect-art * {
+    /* border: 1px solid red; */
+}
+.fleche p:first-of-type{
+    font-weight: 900;
+    color: #692E32;
+}
+.fleche {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    color: black;
+}
+.fleche li {
+    padding-bottom:2rem;
+    color: black;
+    list-style-image: url(./img/arrow.png);
+    list-style-position: inside;
+      }
+
+h3, p {
+padding-bottom: 2rem;
+}
+.fleche input{
+    width: 50%; 
+    padding: 1rem;
+    background-color:#564D48;
+    color: white;
+    
+}
+footer article {
+    
+    margin-top: 2rem;
+    padding: 5rem;
+    background-color: white;
+  
+ 
+}
+
+hr {
+   border-top: solid black;
+}
+footer p {
+    padding-top: 6rem;
+
+}
